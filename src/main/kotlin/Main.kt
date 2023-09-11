@@ -75,18 +75,28 @@ fun main(args: Array<String>) {
     решение 10-го упр*/
 
     val position: Int = 37
-    val rowrow: Int = position
-    val column: Int = position
-    println()
-    println()
-    // решение 11-го упр
+    val rowrow: Int = position / 8
+    val column: Int = position % 8
+    exercisesSolved ++
+    /*создаем константу "position", задаем ей значение позиции на доске.
+    вычисляем строку в константе "rowrow", а столбец в константе "column"
+    решение 11-го упр*/
     
     val degrees : Double = 60.0
     val radians : Double = degrees * Math.PI / 180
     exercisesSolved++
-     /* Объявили константу "degrees" типа Double и присвоили ей начальное значение.
-     Вычислили угол в радианах и сохранили результат в константе "radians".
+     /* объявляем константу "degrees" типа Double и присваиваем ей начальное значение.
+     Вычисляем угол в радианах и сохраняем результат в константе "radians".
      решение 12-го упр*/
+
+    val x1:Double = 8.0
+    val y1:Double = 4.0
+    val x2:Double = 5.0
+    val y2:Double = 9.0
+    val distance = sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1))
+    /* объявляем константы координат двух точек типа Double.
+     Вычисляем дистанцию между этими двумя точками и сохраняем результат в константе "distance".
+     решение 13-го упр*/
 
 }
 
